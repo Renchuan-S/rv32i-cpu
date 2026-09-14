@@ -1,0 +1,88 @@
+# --------------------
+# OS / editor files
+# --------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --------------------
+# Logs / temporary files
+# --------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# --------------------
+# Build outputs
+# --------------------
+build/
+out/
+dist/
+obj/
+bin/
+obj_dir/
+
+# --------------------
+# Compiled artifacts
+# --------------------
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.bin
+*.elf
+*.map
+*.lst
+
+# --------------------
+# Simulation outputs
+# --------------------
+sim/
+*.dump
+*.trace
+*.vcd
+*.fst
+*.wlf
+*.vvp
+waveform/
+waves/
+work/
+transcript
+vsim.wlf
+a.out
+
+# --------------------
+# FPGA / Vivado outputs
+# --------------------
+.Xil/
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.bit
+*.rpt
+*.dcp
+*.jou
+*.str
+
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
